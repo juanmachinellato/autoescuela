@@ -48,3 +48,19 @@ if (prevBtn && nextBtn && reviews.length) {
     showReview(currentReview);
   });
 }
+
+// Volver arriba
+const toTop = document.getElementById("toTop");
+
+function toggleToTop() {
+  if (!toTop) return;
+  if (window.scrollY > 400) toTop.classList.add("show");
+  else toTop.classList.remove("show");
+}
+
+window.addEventListener("scroll", toggleToTop);
+toggleToTop();
+
+toTop?.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
