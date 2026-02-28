@@ -806,23 +806,6 @@ html{ scroll-behavior:smooth; scroll-padding-top: 88px; }
 }
 
 /* Marca de agua */
-.watermark{
-  position: fixed;
-  left: 14px;
-  bottom: 12px;
-  z-index: 999;
-  font-weight: 800;
-  letter-spacing: .6px;
-  font-size: 12px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  color: rgba(255,255,255,.75);
-  background: rgba(0,0,0,.25);
-  border: 1px solid rgba(255,255,255,.12);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  pointer-events: none;
-}
 
 /* Botón volver arriba */
 .toTop{
@@ -858,3 +841,18 @@ html{ scroll-behavior:smooth; scroll-padding-top: 88px; }
 .toTop:active{
   transform: translateY(1px);
 }
+.site-footer{
+  width: 100%;
+  padding: 30px 20px;
+  margin-top: 80px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  background: #0a0a12; /* mismo fondo oscuro */
+}
+
+.footer-left{
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,.5);
+  text-align: left;
+}
+
