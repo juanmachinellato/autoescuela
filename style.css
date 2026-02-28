@@ -855,4 +855,19 @@ html{ scroll-behavior:smooth; scroll-padding-top: 88px; }
   color: rgba(255,255,255,.5);
   text-align: left;
 }
+@media (max-width: 600px){
 
+  .reviews{
+    grid-template-columns: 1fr !important;
+  }
+
+  .reviewCard{
+    width: 100% !important;
+  }
+
+  .reviewCard img{
+    width: 100%;
+    height: auto;
+  }
+
+}
